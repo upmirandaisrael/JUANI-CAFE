@@ -1,0 +1,105 @@
+
+ h1 {
+  margin-right: 6px;
+    font-size: 45px;
+    color: black;
+    font-weight:1;
+}
+
+.barra{
+  display: flex; 
+  align-items:center; 
+}
+
+.titulo{
+  margin-left: 3%;
+}
+.opciones{
+ margin-left: 17%;
+}
+
+      ul a {
+        font-size: 20x;
+        color: #000000;
+        text-decoration: none;
+        margin: 20px;
+      }
+
+      ul  {
+        display:flex; 
+        flex-direction: row;
+        justify-content:flex-end;
+      }
+
+      div{
+      background-color:#F7F4EF;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+     
+
+    .container {
+      display: flex; 
+      align-items:center; 
+    }
+    
+.content {
+      display: flex; 
+      align-items: center; 
+      flex-direction: column;
+      justify-content: flex-start;
+      
+}
+    
+    .container { 
+      flex:1;
+    }
+
+    .content { 
+      flex:1;
+      display: flex; 
+      align-items:center; 
+      margin-right: 100px;
+    }
+
+    h2{
+      font-size: 90px;
+      font-weight:1;
+    }
+
+    img {
+      height: 30%;
+      width: 80%;
+  }
+
+  h2, p, .boton {
+    margin: 2px;
+  }
+
+  h2, p {
+    display: table-column;  
+    align-items:center; 
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  p{
+    font-size: 20px;
+    text-align: center; 
+   }
+
+  .boton{
+    display: inline-block;
+  background-color: #916C4C;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-right: 20px;
+   }
+    
+    img {
+      margin: 1px 0px;
+    }
+    
