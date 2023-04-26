@@ -1,6 +1,18 @@
 
- h1 {
+header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #F7F4EF;
+      padding: 1px;
+}
+
+h1 {
   margin-right: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
     font-size: 45px;
     color: black;
     font-weight:1;
@@ -9,6 +21,12 @@
 .barra{
   display: flex; 
   align-items:center; 
+}
+
+.cuadro {
+  display: flex;
+  align-items:center; 
+margin-top: 100px;
 }
 
 .titulo{
@@ -98,9 +116,98 @@
   text-decoration: none;
   margin-top: 20px;
   margin-right: 20px;
+  border-radius: 10px;
+  text-transform:uppercase;
+
    }
     
     img {
       margin: 1px 0px;
     }
-    
+
+    .fotos {
+      display: flex;
+      align-items: center;
+    }
+
+    .f1{
+      margin-top: 100px;
+     margin-left: 5%;
+     margin-right: 5%;
+    }
+
+    .f2{
+      margin-top: 100px;
+      margin-left: 5%;
+     margin-right: 5%;
+    }
+
+    .f3{
+      margin-top: 100px;
+      margin-left: 5%;
+     margin-right: 5%;
+    }
+
+    .contenedorb1 {
+      width: 300px;
+      height: 400px;
+    background-image: url(Mesa\ de\ trabajo\ 1.png); 
+    text-align: center;
+    padding-top: 170px;
+    margin-top: 70px;
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+
+    .contenedorb2 {
+      width: 300px;
+      height: 400px;
+    background-image: url(Mesa\ de\ trabajo\ 2.png);
+    text-align: center;
+    padding-top: 170px;
+    margin-top: 70px;
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+
+    .contenedorb3 {
+      width: 300px;
+      height: 400px;
+    background-image: url(Mesa\ de\ trabajo\ 3.png);
+    text-align: center;
+    padding-top: 170px;
+    margin-top: 70px;
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+
+  .bmenu {
+    background-color: #916C4C;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform:uppercase;
+    border-radius: 10px;
+     }
+
+
+  .btorta{
+    background-color: #916C4C;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform:uppercase;
+    border-radius: 10px;
+     }
+
+  .bcomprar{
+    background-color: #916C4C;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+   border-radius: 10px;
+    text-transform:uppercase;
+     }
