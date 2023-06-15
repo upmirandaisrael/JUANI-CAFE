@@ -1,0 +1,787 @@
+
+header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #F7F4EF;
+      padding: 1px;
+}
+
+
+.logo{
+display: block;
+flex-wrap: wrap;
+}
+
+.logo img {
+  display: block;
+  flex-wrap: wrap;
+}
+
+a{text-decoration:none;
+  color: black;}
+
+
+.barra{
+  display: flex; 
+  align-items:center; 
+}
+
+.cuadro {
+  display: flex;
+  align-items:center; 
+margin-top: 100px;
+}
+
+.titulo{
+  margin-left: 3%;
+}
+.opciones{
+ margin-left: 17%;
+}
+
+      ul a {
+        font-size: 20x;
+        color: #000000;
+        text-decoration: none;
+        margin: 20px;
+      }
+
+      ul  {
+        display:flex; 
+        flex-direction: row;
+        justify-content:flex-end;
+      }
+
+      div{
+      background-color:#F7F4EF;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+     
+
+    .container {
+      display: flex; 
+      align-items:center; 
+    }
+    
+.content {
+      display: flex; 
+      align-items: center; 
+      flex-direction: column;
+      justify-content: flex-start;
+      
+}
+
+.content p {
+  font-size: 18px;
+  text-align: center; 
+  margin-top: 10px;
+  display: block;
+  height: 130px;
+  width:  295px;
+}
+    
+    .container { 
+      flex:1;
+    }
+
+    .content { 
+      flex:1;
+      display: flex; 
+      align-items:center; 
+      margin-right: 100px;
+    }
+
+    h2{
+      font-size: 90px;
+      font-weight:1;
+    }
+
+    img {
+      height: 30%;
+      width: 80%;
+  }
+
+  h2, p, .boton {
+    margin: 2px;
+  }
+
+  h2, p {
+    display: table-column;  
+    align-items:center; 
+    justify-content: center;
+    flex-direction: column;
+  }
+
+
+  .boton{
+    display: inline-block;
+  background-color: #916C4C;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  text-transform:uppercase;
+  cursor: pointer;
+
+   }
+    
+    img {
+      margin: 1px 0px;
+
+    }
+
+    .fotos {
+      display: flex;
+      align-items: center;
+      height: min-content;
+      margin-bottom: 100px;
+        }
+
+    .f1{
+      margin-top: 100px;
+     margin-left: 5%;
+     margin-right: 5%;
+    }
+
+    .f2{
+      margin-top: 100px;
+      margin-left: 5%;
+     margin-right: 5%;
+    }
+
+    .f3{
+      margin-top: 100px;
+      margin-left: 5%;
+     margin-right: 5%;
+    }
+
+    .contenedorb1 {
+      width: 280px;
+      height: 160px;
+    background-image:url(../Fotos/Mesa\ de\ trabajo\ 1.png);
+    text-align: center;
+    padding-top: 170px;
+    margin-top: 70px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+    }
+
+
+    .contenedorb2 {
+      width: 280px;
+      height: 160px;
+    background-image:url(../Fotos/Mesa\ de\ trabajo\ 2.png);
+    text-align: center;
+    padding-top: 170px;
+    margin-top: 70px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+    }
+
+    .contenedorb3 {
+      width: 280px;
+      height: 160px;
+    background-image: url(../Fotos/Mesa\ de\ trabajo\ 3.png);
+    text-align: center;
+    padding-top: 170px;
+    margin-top: 70px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+    }
+.contenedorb1:hover, .contenedorb2:hover, .contenedorb3:hover{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+  .bmenu {
+    background-color: #916C4C;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform:uppercase;
+    border-radius: 10px;
+    cursor: pointer;
+     }
+
+
+  .btorta{
+    background-color: #916C4C;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform:uppercase;
+    border-radius: 10px;
+    cursor: pointer;
+     }
+
+  .bcomprar{
+    background-color: #916C4C;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+   border-radius: 10px;
+    text-transform:uppercase;
+    cursor: pointer;
+     }
+
+     .btorta:hover ,.bcomprar:hover, .bmenu:hover ,.boton:hover {
+      background-color: #000;
+      color: #fff;
+     }
+
+     .ultima {
+      background-image: url(../Fotos/Captura\ de\ pantalla\ 2023-04-26\ 100530.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 480px;
+      width: 100%;
+      background-position: center;
+     }
+
+     .cuadraditos {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      background-color: transparent;
+      
+     }
+
+
+     .c1 { 
+      width: 300px;
+      height: 300px;
+      border: 2px solid black;
+      background-color: transparent;
+      padding-top:20px;
+    margin-top: 70px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+     }
+
+     .c2 { 
+      width: 300px;
+      height: 300px;
+      border: 2px solid black;
+      background-color: transparent;
+      padding-top: 20px;
+    margin-top: 70px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+     }
+
+     .c3 { 
+      width: 300px;
+      height: 300px;
+      border: 2px solid black;
+      background-color: transparent;
+      padding-top: 20px;
+    margin-top: 70px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+     }
+
+
+     .texto1{
+      text-align: center;
+      margin-top: 100px;
+      font-weight: bolder;
+      text-transform:uppercase;
+      font-size: 18px;
+     }
+
+    .redes{
+      display: flex;
+      size: 20px x 20px;
+    flex-direction: row;
+    align-content:center ;
+    background-color: transparent;
+    justify-content: center;
+    margin-top: 5px;
+      overflow: hidden;
+    }
+
+    .icons {
+      height: 30px;
+      width: 30px;
+      margin: 10px;
+      display: flex;
+      align-items: center;
+      transition: transform 0.3s ease;
+    }
+
+    .redes:hover .icons {
+      transform: scale(1.2); 
+    }
+
+    
+    .menu {
+     display: flex;
+     flex-direction: row;
+    }
+
+    .fotosmenu {
+      display: flex;
+      width: 20%;
+      height: 20%;
+      margin: 0px;
+      margin-top: 20px;
+      box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+    }
+
+
+  footer {
+    background-color: #916C4C;
+    padding: 20px;
+    text-align: center;
+    opacity: 80%;
+    
+}
+
+footer p {
+  margin-top: 3px;
+  display: flex;
+  color: #F7F4EF;
+  font-size: 15px;
+}
+
+.Destacados .pdestacados p {
+color: #F7F4EF;
+text-align: center;
+display: flex;
+justify-content: center;
+font-weight: bold;
+font-size: 20px;
+background-color: #916C4C;
+padding: 5px;
+}
+
+.Destacados {
+  margin-bottom: 40px;
+}
+
+.Destacados p{
+color: #000000;
+text-align: center;
+display: flex;
+justify-content: center;
+font-size: 20px;
+margin-top: 2px;
+}
+
+
+.tortas1{
+  margin-top: 15px;
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.textotorta{
+  display: flex;
+  text-decoration: none;
+  margin-right: 10%;
+  font-size: 10px;
+
+}
+
+.tortas1 p, .tortas2 p{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+margin: 2px;
+
+}
+
+.tortaarandanos img {
+  height:250px;
+  width: 250px;
+  margin: 20px;
+}
+
+
+.encargartorta {
+  display: flex;
+  background-color: #916C4C;
+  color: white;
+  padding: 5px 5px;
+  text-decoration: none;
+  border-radius: 10px;
+ text-align: center;
+ width: 50%;
+ justify-content: center;
+ margin-left: 60px;
+ margin-top: 10px;
+ cursor: pointer;
+}
+
+.encargartorta:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.textotorta{
+  display: flex;
+  text-decoration: none;
+  margin-right: 10%;
+
+}
+
+.title p {
+  font-size: 20px;
+}
+
+form {
+  margin-top: 40px;
+}
+
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+.contact-form label {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.contact-form textarea {
+  height: 100px;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #916C4C;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #000;
+}
+
+.logojuani  {
+  height: 70%;
+  width: 70%;
+  margin-bottom: 25px;
+}
+
+.title{
+  flex:1;
+    display: flex; 
+    align-items: center; 
+    margin-top: 130px;
+    flex-direction: column;
+}
+
+html {
+  background-color: #F7F4EF;
+}
+
+.title p {
+  margin-top: 7px;   
+}
+
+.title h2{
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+
+.tortas1{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.tortas2{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-content: center;
+  margin-bottom: 50px;
+}
+
+.textotorta{
+  display: flex;
+  text-decoration: none;
+  margin-right: 10%;
+
+}
+
+.fotostorta {
+  height:250px;
+  width: 250px;
+  margin: 20px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+ 
+}
+
+.encargartorta {
+  display: flex;
+  background-color: #916C4C;
+  color: white;
+  padding: 5px 5px;
+  text-decoration: none;
+  border-radius: 10px;
+ text-align: center;
+ width: 50%;
+ justify-content: center;
+ margin-left: 60px;
+ margin-top: 10px;
+
+}
+
+.redessociales {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #916C4C;
+}
+
+footer img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15%;
+  width: 15%;
+}
+.logomedio{
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #916C4C;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+
+
+
+        /* Media Queries */
+        
+        @media (max-width: 768px) {
+          .titulo img {
+              width: 50%;
+          }
+      
+          .opciones {
+              display: none;
+          }
+      
+          .menu-icono {
+              display: block;
+          }
+      
+          .menu-desplegado {
+              display: flex;
+          }
+      
+          .container,.tortas1, .tortaarandanos, .fotostorta {
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-items: center;
+            margin-left: 90px;
+          }
+      
+          .content {
+              max-width: 100%;
+              margin-top: 20px;
+              
+          }
+      
+          .foto img {
+              max-width: 100%;
+              align-items:center;
+              margin-top: 20px;
+    
+          }
+      
+          .fotos {
+              flex-wrap: wrap;
+          }
+      
+          .contenedorb1,
+          .contenedorb2,
+          .contenedorb3 {
+              width: 58%;
+              margin-bottom: 10px;
+              align-items: center;
+              justify-content: center;
+              align-items: center;
+              margin-left: 90px;
+          }
+      .tortas1 {
+        width: calc(50% - 20px);
+        
+      }
+      .pdestacados{
+        flex-wrap: wrap;
+      }
+
+      .Destacados{
+        flex-wrap: wrap;
+      }
+
+
+    }
+      
+      @media (max-width: 480px) {
+          .titulo img {
+              width: 60px;
+          }
+      
+          .boton {
+              margin-top: 10px;
+          }
+      }
+      
+      @media (max-width: 320px) {
+          .titulo img {
+              width: 0px;
+          }
+      
+          .menu-icono {
+              font-size: 20px;
+          }
+      
+          .boton {
+              margin-top: 5px;
+          }
+
+          .tortas1 {
+            width: 100%;
+          }
+        }
+body {
+  margin: 0;
+
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.active {
+  height: 25%;
+  width: 25%;
+margin-left: 2rem;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.topnav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.topnav {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+    padding: 0px;
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+
+  
+@media screen and (max-width: 768px) {
+  .topnav{
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .topnav a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 480px) {
+  .topnav a {
+    text-align: center;
+    float: none;
+  }
+}
+}
